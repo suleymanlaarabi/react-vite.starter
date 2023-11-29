@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# ReactTS Vite Starter Kit 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kickstart your React TypeScript projects with this blazing-fast starter kit powered by Vite. This template includes Chakra UI for sleek component styling and React Icons for easy icon integration.
 
-Currently, two official plugins are available:
+## Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React TypeScript**:
+  Enjoy the benefits of type safety and maintainability with TypeScript.
+- **Vite Build System**:
+  Experience rapid development with Vite's quick bundling and hot module replacement.
+- **Chakra UI**:
+  Effortlessly create beautiful and responsive UIs using Chakra's modular component library.
+- **React Icons**:
+  Access a vast collection of popular icons for seamless integration into your application.
+- **Opinionated Configuration**:
+  Get started quickly with a pre-configured setup based on best practices.
 
-## Expanding the ESLint configuration
+## Quick Start:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/suleymanlaarabidev/react-vite.starter.git
+   ```
+2. **Go in the directory:**
+   ```bash
+   cd react-vite.starter
+   ```
+3. **Install depedencies:**
+   ```bash
+   pnpm install
+   ```
+4. **Run:**
+   ```bash
+   pnpm run dev
+   ```
+5. **Build and Enjoy**
+   ```bash
+   pnpm run build
+   ```
