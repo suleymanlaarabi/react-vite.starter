@@ -1,12 +1,4 @@
-import { Button, ChakraProvider, Flex, Heading } from "@chakra-ui/react";
-import {
-  avancer,
-  bas,
-  droite,
-  gauche,
-  haut,
-  reculer,
-} from "./services/api/tello-api";
+import { ChakraProvider, Flex, Heading } from "@chakra-ui/react";
 
 function App() {
   return (
@@ -18,28 +10,9 @@ function App() {
           alignItems={"center"}
           justifyContent={"center"}
           direction={"column"}
-          gap={20}
+          gap={5}
         >
-          <Heading>Drone Tello</Heading>
-          <Flex gap={10}>
-            <Flex gap={5} direction={"column"}>
-              <Button onClick={avancer}>Avancer</Button>
-              <Flex gap={5}>
-                <Button onClick={droite}>droite</Button>
-                <Button onClick={gauche}>Gauche</Button>
-              </Flex>
-              <Button onClick={reculer}>reculer</Button>
-            </Flex>
-
-            <Flex gap={5} flexDirection={"column"}>
-              <Button h={"100%"} onClick={haut}>
-                Haut
-              </Button>
-              <Button h={"100%"} onClick={bas}>
-                Bas
-              </Button>
-            </Flex>
-          </Flex>
+          <Heading>Hello World !</Heading>
         </Flex>
       </ChakraProvider>
     </>
